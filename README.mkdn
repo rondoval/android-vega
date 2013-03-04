@@ -1,7 +1,12 @@
 Building for Advent Vega:
 
 repo init -u git://github.com/rondoval/android-vega.git -b cm10.1
+
 repo sync
+
 . build/envsetups.sh
+
 lunch cm_shuttle-userdebug
+
 mka otapackage
+
